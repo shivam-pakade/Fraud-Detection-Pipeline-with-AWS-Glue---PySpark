@@ -61,7 +61,7 @@ E --> G[Amazon QuickSight<br>(Interactive Dashboard)]
 ---
 
 ## 🖼️ Dashboard Preview
-![QuickSight Dashboard](screenshots/quicksight/dashboard-preview.png)
+![QuickSight Dashboard](screenshots/quicksight/publish-dashboard.png)
 
 **Key Visuals:**
 - **Model Accuracy**: 98.7% overall accuracy
@@ -124,7 +124,7 @@ This project demonstrates:
 - ✅ **Business impact** focus (fraud detection = direct revenue protection)
 - ✅ **Cost consciousness** (serverless, under $5/month)
 
-**Live Dashboard**: [QuickSight Dashboard Link] *(if public)*
+
 
 ---
 
@@ -150,3 +150,4 @@ This project is for educational and portfolio purposes. The dataset is from Kagg
 
 
 > **"In fraud detection, every percentage point of accuracy improvement translates to thousands of dollars saved."**
+

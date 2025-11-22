@@ -26,7 +26,6 @@
 ---
 
 ## 📊 Pipeline Architecture
-```mermaid
 graph LR
 A[Raw CSV Data<br>(creditcard.csv)] --> B[S3: fraud-raw-data]
 B --> C[AWS Glue Crawler<br>(Schema Discovery)]
@@ -34,7 +33,6 @@ C --> D[AWS Glue Job<br>(PySpark ETL + ML)]
 D --> E[S3: fraud-model-output<br>(Predictions + Metrics)]
 E --> F[Amazon Athena<br>(Ad-hoc Queries)]
 E --> G[Amazon QuickSight<br>(Interactive Dashboard)]
-```
 
 ---
 
@@ -141,7 +139,7 @@ This project demonstrates:
 ---
 
 ## 🤝 Connect With Me
-Built by **[Shivam Pakade]** | [LinkedIn](https://linkedin.com/in/yourprofile) | [Email](mailto:shivampakade@email.com)
+Built by **Shivam Pakade** | [LinkedIn](https://linkedin.com/in/yourprofile) | [Email](mailto:shivampakade@email.com)
 
 *Ready to build data pipelines that drive business decisions. Let's connect!*
 
@@ -149,5 +147,6 @@ Built by **[Shivam Pakade]** | [LinkedIn](https://linkedin.com/in/yourprofile) |
 
 ## 📌 License
 This project is for educational and portfolio purposes. The dataset is from Kaggle's public domain.
+
 
 > **"In fraud detection, every percentage point of accuracy improvement translates to thousands of dollars saved."**

@@ -1,0 +1,15 @@
+{
+    "fileLocations": [
+        {
+            "URIPrefixes": [
+                "s3://sam-analytics-output-ecommerce/sales_by_category/"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "PARQUET",
+        "delimiter": ",",
+        "textqualifier": "'",
+        "containsHeader": "true"
+    }
+}
